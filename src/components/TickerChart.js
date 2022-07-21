@@ -31,6 +31,7 @@ function Ticker() {
       setColor("black");
     }
     prevPrice.current = price;
+    // console.log(price)
   }, [price]);
 
   return (
